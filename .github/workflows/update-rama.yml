@@ -1,23 +1,17 @@
-name: Update Rama
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: '17 * * * *'
+name: gabung
+on: [workflow_dispatch]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+        with: { python-version: '3.11' }
       - run: pip install requests
-      - name: Gabung Playlist
-        run: python script/gabung.py
-      - name: Push hasil
-        run: |
-          git config --global user.name "auto-bot"
-          git config --global user.email "bot@github.com"
-          git add derama/
-          git diff --staged --quiet || git commit -m "update hasil"
+      - run: python script/gabung.py
+      - run: |
+          git config --global user.name "bot"
+          git config --global user.email "bot@bot.com"
+          git add derama/hasil.m3u
+          git commit -m "update" || true
           git push
