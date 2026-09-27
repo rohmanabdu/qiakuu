@@ -5,7 +5,6 @@ SOURCE_2 = "https://raw.githubusercontent.com/rohmanabdu/lian/refs/heads/main/pl
 
 OUTPUT_FILE = "derama/hasil.m3u"
 ONE_CATEGORY = "LIVE EVENT"
-DEFAULT_LOGO = "https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg"
 
 def get_m3u(url):
     print(f"Ambil: {url}")
@@ -19,14 +18,12 @@ def parse_and_clean(text):
     for i in range(len(lines)):
         line = lines[i].strip()
         if line.startswith("#EXTINF"):
-            # PAKSA jadi 1 kategori + paksa logo
-            line = re.sub(r'group-title="[^"]*"', f'group-title="{ONE_CATEGORY}"', line)
-            if 'group-title=' not in line:
+            # HANYA GANTI KATEGORI, LOGO JANGAN DIUBAH
+            if 'group-title=' in line:
+                line = re.sub(r'group-title="[^"]*"', f'group-title="{ONE_CATEGORY}"', line)
+            else:
+                # kalau belum ada group-title, tambahkan
                 line = line.replace(',', f' group-title="{ONE_CATEGORY}",', 1)
-
-            line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{DEFAULT_LOGO}"', line)
-            if 'tvg-logo=' not in line:
-                line = line.replace('#EXTINF:-1', f'#EXTINF:-1 tvg-logo="{DEFAULT_LOGO}"')
 
             if i+1 < len(lines):
                 url = lines[i+1].strip()
@@ -35,7 +32,6 @@ def parse_and_clean(text):
     return channels
 
 def main():
-    # INI YANG BIKIN ERROR TADI, SEKARANG SUDAH FIX
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
     list1 = parse_and_clean(get_m3u(SOURCE_1))
@@ -56,7 +52,7 @@ def main():
         for url, extinf in unique.items():
             f.write(f"{extinf}\n{url}\n")
 
-    print(f"SELESAI -> {OUTPUT_FILE}")
+    print(f"SELESAI -> {OUTPUT_FILE} (logo original tetap)")
 
 if __name__ == "__main__":
     main()
