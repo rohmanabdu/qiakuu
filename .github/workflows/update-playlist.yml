@@ -1,0 +1,79 @@
+import requests
+import re
+import os
+
+# SUMBER PLAYLIST KAMU
+SOURCE_1 = "https://raw.githubusercontent.com/rohmanabdu/lian/refs/heads/main/playlist/rama1.m3u"
+SOURCE_2 = "https://raw.githubusercontent.com/rohmanabdu/lian/refs/heads/main/playlist/rama2.m3u"
+
+# OUTPUT
+OUTPUT_FILE = "derama/hasil.m3u"
+
+# JADIKAN 1 KATEGORI SAJA
+ONE_CATEGORY = "LIVE EVENT"
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+ 
+}
+
+def get_m3u(url):
+    print(f"Ambil: {url}")
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=40)
+        r.raise_for_status()
+        return r.text
+    except Exception as e:
+        print(f"GAGAL {url} -> {e}")
+        return ""
+
+def parse_and_clean(m3u_text):
+    channels = []
+    lines = m3u_text.splitlines()
+    for i in range(len(lines)):
+        line = lines[i].strip()
+        if line.startswith("#EXTINF"):
+            # ganti group-title jadi 1 kategori
+            if 'group-title=' in line:
+                line = re.sub(r'group-title="[^"]*"', f'group-title="{ONE_CATEGORY}"', line)
+            else:
+                line = line.replace(',', f' group-title="{ONE_CATEGORY}",', 1)
+
+            # ambil url di baris bawahnya
+            if i + 1 < len(lines):
+                url = lines[i+1].strip()
+                if url and not url.startswith("#") and url.startswith("http"):
+                    channels.append((line, url))
+    return channels
+
+def main():
+    os.makedirs("playlist", exist_ok=True)
+
+    data1 = get_m3u(SOURCE_1)
+    data2 = get_m3u(SOURCE_2)
+
+    list1 = parse_and_clean(data1)
+    list2 = parse_and_clean(data2)
+
+    print(f"Sumber 1: {len(list1)} channel")
+    print(f"Sumber 2: {len(list2)} channel")
+
+    # Gabung + hapus duplikat berdasarkan URL
+    all_channels = list1 + list2
+    unique = {}
+    for extinf, url in all_channels:
+        if url not in unique:
+            unique[url] = extinf
+
+    print(f"Total setelah gabung & hapus duplikat: {len(unique)} channel")
+
+    # Tulis file.m3u final
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for url, extinf in unique.items():
+            f.write(f"{extinf}\n{url}\n")
+
+    print(f"SELESAI -> {OUTPUT_FILE} siap dijalankan di VLC / OTT Navigator")
+
+if __name__ == "__main__":
+    main()
