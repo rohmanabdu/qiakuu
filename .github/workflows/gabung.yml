@@ -2,7 +2,7 @@ name: Gabung Playlist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'  # jalan otomatis tiap jam 0 menit
+    - cron: '20 * * * *'  # jalan otomatis tiap jam 0 menit
     # kalau mau tiap 30 menit ganti jadi: '*/30 * * * *'
     # kalau mau tiap jam 17 menit: '17 * * * *'
 
