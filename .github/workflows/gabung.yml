@@ -1,12 +1,7 @@
 name: Gabung M3U
 
 on:
-  schedule:
-    - cron: '*/15 * * * *'  # jalan tiap 1 jam, jangan 15 menit biar gak kena limit GitHub
-  workflow_dispatch:      # bisa jalanin manual
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -14,7 +9,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -25,13 +20,13 @@ jobs:
       - name: Install requests
         run: pip install requests
 
-      - name: Jalankan gabung.py
+      - name: Run gabung.py
         run: python gabung.py
 
-      - name: Commit hasil.m3u
+      - name: Commit hasil
         run: |
-          git config --global user.name "bot"
-          git config --global user.email "bot@github.com"
+          git config --global user.name "lian-bot"
+          git config --global user.email "bot@lian.com"
           git add derama/hasil.m3u
-          git diff --staged --quiet || git commit -m "update hasil.m3u"
+          git diff --staged --quiet || git commit -m "auto update hasil.m3u via cron-job.org"
           git push
