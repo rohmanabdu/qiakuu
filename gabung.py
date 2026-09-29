@@ -14,9 +14,7 @@ r2 = get_raw(SOURCE_2)
 r2_no_head = re.sub(r'^#EXTM3U.*\n', '', r2, count=1, flags=re.MULTILINE)
 combined = r1.rstrip() + "\n" + r2_no_head.strip() + "\n"
 final = re.sub(r'group-title="[^"]*"', f'group-title="{ONE_CATEGORY}"', combined)
-
 os.makedirs("derama", exist_ok=True)
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     f.write(final)
-
 print(f"Selesai {final.count('#EXTINF')} channel")
