@@ -1,33 +1,19 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",22.30||VFB STTUTGART VS FURTH
-https://live2.domainkqt.cc/live/channel4.m3u8
-#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",23.00||AZERBAIJAN VS LIETCHTENSTEIN
-https://live2.domainkqt.cc/live/channel15.m3u8
-#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",23.00||GUINEA VS KENYA
-https://live2.domainkqt.cc/live/channel11.m3u8
-#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",01.45||DENMARK VS PORTUGAL
+#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",16.00||VIETNAM VS PAKISTAN
 https://live2.domainkqt.cc/live/channel1.m3u8
-#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",01.45||GERMANY VS SERBIA
-https://live2.domainkqt.cc/live/channel24.m3u8
-#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",01.45||GREECE VS NETHERLANDS
-https://tfzr6gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel2/playlist.m3u8?wsSecret=d3154af06ddadc3e57f5e1713fddbb42&wsABSTime=1790924976&wsSession=72f1ecafa8570fdd8c78ecfe-179088178050900&wsIPSercert=5fe7a668fccf187d77e92164a3b804cf&wsBindIP=2&wsserid=19560480166232750
-#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",01.45||WALES VS NORWAY
-https://live2.domainkqt.cc/live/channel15.m3u8
-#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",01.45||MALTA VS GIBRALTAR
-https://live2.domaincdn.cc/livecdn/channel-19.m3u8?auth_key=3000001790881930-0-0-77c947e732ca25fc87e57a7d46897323
-#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",01.45||IRELAND VS AO
-https://live2.domainkqt.cc/live/channel11.m3u8
-#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",01.45||ISRAEL KONTOL VS KOSOVO
-https://live2.domainkqt.cc/live/channel18.m3u8
+#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",16.00||THAILAND VS FILIPINA
+https://tfzs0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel15/playlist.m3u8?wsSecret=a56072572ae75114ec3516c7c158aff5&wsABSTime=1790975669&wsSession=510ff2a6e1fbdceb0434ca7c-179093247248568&wsIPSercert=b1258e89327ee56480448c0566e0eef5&wsBindIP=2&wsserid=1168287765269359649
+#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",17.30||JUVENTUS VS CREMONESE
+https://tfzs0gr4ugmtwgczdcqjqgr5n45djq31unmutqiwsg45ucpzzr3mnp7ozr3d4.100ycdn.com/live1.quickscoreboardz.com/live/channel18/playlist.m3u8?wsSecret=0dcd1e52c424a745a39af6e7435bbad6&wsABSTime=1790976544&wsSession=1e288d1dc142165bdcd022fa-179093334729625&wsIPSercert=b1258e89327ee56480448c0566e0eef5&wsBindIP=2&wsserid=1168287746140338896
+#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",18.00||SOUTH KOREA VS VENEZUELA
+https://live2.domainkqt.cc/live/channel12.m3u8
+#EXTINF:-1 tvg-logo="https://img.magnific.com/premium-vector/live-streaming-icon-live-broadcasting-button-online-stream-icon_349999-1413.jpg" group-title="LIVE EVENT",18.35||CHINA VS PALESTINA
+https://live2.domainkqt.cc/live/channel21.m3u8
 # ===== SOURCE 1 =====
 #EXTINF:-1 tvg-id="840093" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=45&ImageId=%2716470660%27&EntityType=%27Item%27&EntityId=%27846603%27&Width=448&Height=252&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27" group-title="LIVE EVENT",06:00 WIB Hockey - 20th Asian Games Aichi-Nagoya 2026 Women's Classification Pools Women's Bronze Medal Matc Asian Games CH06
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4ba597f828db477e9f18d9ab7a4d6ca8:26eb8934f968f5dfc15b91797344411a
 https://tglmp01.akamaized.net/out/v1/c5980cddad3f4321b9032f2442f2552b/manifest.mpd
-#EXTINF:-1 tvg-logo="https://staticg.sportskeeda.com/editor/2023/07/a17f4-16890646767775-1920.jpg" group-title="LIVE EVENT",13:00 WIB à¸à¹à¸²à¸¢à¸à¸­à¸à¸ªà¸à¸à¸²à¸£à¹à¸à¹à¸à¸à¸±à¸à¸à¸µà¸¬à¸²à¹à¸­à¹à¸à¸µà¸¢à¸à¹à¸à¸¡à¸ªà¹ à¸à¸£à¸±à¹ T SPORT 7
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6187523f92b9475bb5b192f70cef1342:5119311f482144d58dacabc5bc1fa4ba
-http://gvisiontv.channell.my.id/ch/th/th1.php/.mpd?=7
 #EXTINF:-1 tvg-id="Mono 29.th" tvg-logo="https://staticg.sportskeeda.com/editor/2023/07/a17f4-16890646767775-1920.jpg" group-title="LIVE EVENT",14:50 WIB à¸à¹à¸²à¸¢à¸à¸­à¸à¸ªà¸ ASIAN GAMES AOCHI - NAGOYA 2026 MONO29
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -52,17 +38,14 @@ http://3bb.engatetv.com:25461/hstn/line/21
 
 
 # ===== SOURCE 2 =====
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://shorter.me/32-EQ",14:00 WIB Pakistan vs Iran
-#EXTVLCOPT:http-origin=https://player.787200.com/
-#EXTVLCOPT:http-referrer=https://player.787200.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
-https://live.vivo155.com/live/sd-10-5376625.m3u8?txSecret=7a0e6817bafe4577d2ea0fd0570edda7&txTime=6ABF694C
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://shorter.me/32-EQ",14:00 WIB Pakistan vs Iran
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
-https://live2.zundrixmediapipeline.com/live/channel33.m3u8
-#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://shorter.me/32-EQ",14:00 WIB Kazakhstan vs Taiwan
-https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel80.m3u8
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://shorter.me/yKOXu",15:30 WIB Thailand vs Filipina
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=91b9592c819246c68b3b08a1fe08ba22:fa0d80dfd865b34077bae44cd4a0c5e6
+https://ls-mp04stg.eo-edgefunctions7.com/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://shorter.me/yKOXu",16:30 WIB Vietnam vs Pakistan
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d418f733ed224f9bb9c2b1589db22a20:6ed6fe26daa4b926810869ff60254ebb
+https://ls-mp02stg.eo-edgefunctions7.com/out/v1/cc0fc82e76cb4e0093e81695284af443/manifest.mpd
 #EXTINF:-1 tvg-logo="https://cdn.esports.id/media/article/488220220630094344.jpg" group-title="LIVE EVENT",MPL INDONESIA SEASON 18 Week 7 Day 1 Streaming mobile legends: bang bang.
 http://gvisiontv.channell.my.id/ch/tch/tch.php/.m3u8?id=navimlbbofficial
 #EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.17807db5-4a7d-4133-af1d-83c6c125b0ab/10/BOXART-16X9/en-US._UR1920-1080_CLs%7C1920-1080%7C/G/bundle/BottomRightCardGradient16x9.png-/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0-0-1920-1080+0-0-1920-1080+1578-847-263-156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="LIVE EVENT",Predator Pro Billiard Series: Indonesia-2026 Predator Pro Billiard Series: Indonesia  Prime Sports
@@ -83,7 +66,7 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM7ImQS53NNg3W7LEgCpPCm3sGvLs57tvBXNlNl5Zcww&s=10" group-title="LIVE EVENT",Formula 1 - LOW QUALITY
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 http://193.47.62.41/hls/FEEE.m3u8?
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025597/1790904576362936_AG26_Boxing_Womens65kg_GoldMatch_Chen_Nien_Chin_vs_Parveen_live_landscape_thumb.jpg" group-title="LIVE EVENT",India In Action - Boxing 20th Asian Games Aichi-Nagoya 2026 Sony Liv
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025467/1790814728666127_AG26_Generic_Stream5_live_landscape_thumb_clean.jpg" group-title="LIVE EVENT",Day 14 20th Asian Games Aichi-Nagoya 2026 Sony Liv
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2022322/ag_strea0210/ENG/master.m3u8
@@ -91,10 +74,6 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2022322/ag_strea0210/ENG/master.
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2022320/ag_strea0210/ENG/master.m3u8
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541380/thumbnail/1790848496149_1789299123285348_AG26_Hockey_pictogram_landscape_thumb.jpg" group-title="LIVE EVENT",Japan vs Republic of Korea - Women's Hockey 20th Asian Games Aichi-Nagoya 2026 Sony Liv
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/ag_dx2_00210/ENG/master.m3u8
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541853/thumbnail/1790914334812_1789301718758348_AG26_Beach_Volleyball_pictogram_landscape_thumb.jpg" group-title="LIVE EVENT",Beach Volleyball 20th Asian Games Aichi-Nagoya 2026 Sony Liv
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
@@ -103,7 +82,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/ag_dx7_00110/ENG/master.
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2022319/ag_edx1_0210/ENG/master.m3u8
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541854/thumbnail/1790924417888_1789301604665741_AG26_Volleyball_pictogram_landscape_thumb.jpg" group-title="LIVE EVENT",Pakistan vs IR Iran - Men - Volleyball 20th Asian Games Aichi-Nagoya 2026 Sony Liv
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541854/thumbnail/1790931672228_1789298767394741_AG26_Rhythmic_Gymnastics_pictogram_landscape_thumb.jpg" group-title="LIVE EVENT",Group All-Around - Rhythmic Gymnastics 20th Asian Games Aichi-Nagoya 2026 Sony Liv
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2120308/ag_dx8_00210/ENG/master.m3u8
@@ -111,7 +90,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2120308/ag_dx8_00210/ENG/master.
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/ag_mds1_0110/ENG/master.m3u8
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023915/1789293652814348_AG26_Boxing_pictogram_landscape_thumb.jpg" group-title="LIVE EVENT",Boxing 20th Asian Games Aichi-Nagoya 2026 Sony Liv
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025635/1790930682948749_Boxing_finals_live_landscape_thumb.jpg" group-title="LIVE EVENT",Boxing 20th Asian Games Aichi-Nagoya 2026 Sony Liv
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/ag_mds2_0110/ENG/master.m3u8
@@ -123,6 +102,12 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2094587/ag_mds3_0110/ENG/master.
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2018458/ag_mds4_0110/ENG/master.m3u8
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://shorter.me/32-EQ",[Belum Mulai] 17:00 WIB Vietnam vs Indonesia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.zundrixmediapipeline.com/live/channel33.flv
+#EXTINF:-1 group-title="LIVE EVENT" tvg-logo="https://shorter.me/32-EQ",[Belum Mulai] 17:20 WIB Jepang vs China
+https://tfqv3gr5dgmttgha1hcto8yzdncbafisg17ufgrz8yhuxgjtse5ucpf5gk.100ycdn.com/live1.quickscoreboardz.com/live/channel80.m3u8
 
 
 # ===== SOURCE 3 =====
@@ -159,7 +144,7 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/
 
 # ===== SOURCE 4 =====
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025597/1790904576362936_AG26_Boxing_Womens65kg_GoldMatch_Chen_Nien_Chin_vs_Parveen_live_landscape_thumb.jpg" group-title="LIVE EVENT", India In Action - Boxing 20th Asian Games Aichi-Nagoya 2026 Sony Liv
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025467/1790814728666127_AG26_Generic_Stream5_live_landscape_thumb_clean.jpg" group-title="LIVE EVENT", Day 14 20th Asian Games Aichi-Nagoya 2026 Sony Liv
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2022322/ag_strea0210/ENG/master.m3u8
@@ -168,11 +153,6 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2022322/ag_strea0210/ENG/master.
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2022320/ag_strea0210/ENG/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541380/thumbnail/1790848496149_1789299123285348_AG26_Hockey_pictogram_landscape_thumb.jpg" group-title="LIVE EVENT", Japan vs Republic of Korea - Women's Hockey 20th Asian Games Aichi-Nagoya 2026 Sony Liv
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
-https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/ag_dx2_00210/ENG/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541853/thumbnail/1790914334812_1789301718758348_AG26_Beach_Volleyball_pictogram_landscape_thumb.jpg" group-title="LIVE EVENT", Beach Volleyball 20th Asian Games Aichi-Nagoya 2026 Sony Liv
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
@@ -184,7 +164,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/ag_dx7_00110/ENG/master.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2022319/ag_edx1_0210/ENG/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541854/thumbnail/1790924417888_1789301604665741_AG26_Volleyball_pictogram_landscape_thumb.jpg" group-title="LIVE EVENT", Pakistan vs IR Iran - Men - Volleyball 20th Asian Games Aichi-Nagoya 2026 Sony Liv
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541854/thumbnail/1790931672228_1789298767394741_AG26_Rhythmic_Gymnastics_pictogram_landscape_thumb.jpg" group-title="LIVE EVENT", Group All-Around - Rhythmic Gymnastics 20th Asian Games Aichi-Nagoya 2026 Sony Liv
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2120308/ag_dx8_00210/ENG/master.m3u8
@@ -194,7 +174,7 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2120308/ag_dx8_00210/ENG/master.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/ag_mds1_0110/ENG/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023915/1789293652814348_AG26_Boxing_pictogram_landscape_thumb.jpg" group-title="LIVE EVENT", Boxing 20th Asian Games Aichi-Nagoya 2026 Sony Liv
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025635/1790930682948749_Boxing_finals_live_landscape_thumb.jpg" group-title="LIVE EVENT", Boxing 20th Asian Games Aichi-Nagoya 2026 Sony Liv
 #EXTVLCOPT:http-referrer=https://www.sonyliv.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0
 https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/ag_mds2_0110/ENG/master.m3u8
