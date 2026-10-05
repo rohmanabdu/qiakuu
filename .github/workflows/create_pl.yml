@@ -18,11 +18,11 @@ jobs:
         with:
           python-version: '3.10'
       - name: Jalankan Script
-        run: python create_m3u.py
+        run: python create_pl.py
       - name: Commit File M3U
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add PL/defira.m3u
-          git commit -m "Update playlist.m3u dari luar" || echo "Tidak ada perubahan"
+          git commit -m "Update rama dari luar" || echo "Tidak ada perubahan"
           git push
