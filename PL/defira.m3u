@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1,Dikta TV Gratis 1
+https://github.com/aderandi/diktaads/raw/refs/heads/main/DiktaTVGratis_M3U8/segment_000.ts
+#EXTINF:-1,Dikta TV Gratis 2
+https://github.com/aderandi/diktaads/raw/refs/heads/main/DiktaTVGratis_M3U8/segment_001.ts
