@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'create_m3u.py'
+      - 'create_pl.py'
 
 jobs:
   generate:
