@@ -1,0 +1,28 @@
+name: Buat M3U Dari Luar
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'create_m3u.py'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Jalankan Script
+        run: python create_m3u.py
+      - name: Commit File M3U
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add PL/defira.m3u
+          git commit -m "Update playlist.m3u dari luar" || echo "Tidak ada perubahan"
+          git push
