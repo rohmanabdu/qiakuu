@@ -13,7 +13,7 @@ def get_raw(url):
         print(f"GAGAL ambil {url}: {e}")
         return ""
 
-def parse_blocks(text):
+def parse_all_categories(text):
     blocks = []
     lines = text.splitlines()
     cur_extinf = None
@@ -36,9 +36,25 @@ def parse_blocks(text):
     return blocks
 
 raw = get_raw(SOURCE)
-blocks = parse_blocks(raw)
+blocks = parse_all_categories(raw)
 
-print(f"SOURCE ketemu: {len(blocks)} channel")
+# Hitung kategori asli biar keliatan
+live_now = 0
+up_coming = 0
+other = 0
+for extinf, _, _ in blocks:
+    low = extinf.lower()
+    if "live now" in low or "live_now" in low:
+        live_now += 1
+    elif "up coming" in low or "up_coming" in low or "upcoming" in low:
+        up_coming += 1
+    else:
+        other += 1
+
+print(f"TOTAL DARI SOURCE: {len(blocks)} channel")
+print(f"- LIVE NOW: {live_now}")
+print(f"- UP COMING: {up_coming}")
+print(f"- LAINNYA: {other}")
 
 final_lines = ["#EXTM3U"]
 count = 0
@@ -46,24 +62,21 @@ for extinf, props, url in blocks:
     if not url:
         continue
     
-    # Paksa semua group-title jadi LIVE EVENT
+    # Jadikan semua jadi 1 kategori biar tampil semua di APK
     extinf = re.sub(r'group-title="[^"]*"', f'group-title="{ONE_CATEGORY}"', extinf)
     if 'group-title=' not in extinf:
         extinf = extinf.replace(',', f' group-title="{ONE_CATEGORY}",', 1)
 
     final_lines.append(extinf)
     
-    # Biar APK ExoPlayer mau baca semua MPD
+    # Biar semua MPD tampil di APK ExoPlayer
     if ".mpd" in url.lower():
-        has_manifest = any("manifest_type" in p for p in props)
-        if not has_manifest:
+        if not any("manifest_type" in p for p in props):
             final_lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
-        # Pertahankan semua license biar gak ke-skip di APK
         for p in props:
             if "KODIPROP" in p:
                 final_lines.append(p)
     else:
-        # Kalau m3u8, pertahankan VLCOPT kalau ada
         for p in props:
             if "EXTVLCOPT" in p:
                 final_lines.append(p)
@@ -75,4 +88,4 @@ os.makedirs("derama", exist_ok=True)
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(final_lines) + "\n")
 
-print(f"Selesai TOTAL {count} channel tampil semua -> {OUTPUT_FILE}")
+print(f"Selesai -> {count} channel (LIVE NOW + UP COMING) semua masuk ke {OUTPUT_FILE}")
