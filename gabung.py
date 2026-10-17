@@ -14,31 +14,49 @@ def get_raw(url):
         print(f"GAGAL ambil {url}: {e}")
         return ""
 
-def extract_channels(text):
-    # Ambil semua pola #EXTINF sampai URL di bawahnya, ini yang bikin semua channel ketarik
-    pattern = r'#EXTINF:.*\n.*'
-    return re.findall(pattern, text, re.IGNORECASE)
+def extract_channels_full(text):
+    channels = []
+    lines = text.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        if line.startswith("#EXTINF"):
+            block = [line]
+            i += 1
+            # ambil semua baris # yang ada di bawah EXTINF (VLCOPT, KODIPROP, dll) sampai ketemu URL
+            while i < len(lines):
+                nxt = lines[i].strip()
+                if not nxt:
+                    i += 1
+                    continue
+                if nxt.startswith("#") and not nxt.startswith("#EXTINF"):
+                    block.append(nxt)
+                    i += 1
+                else:
+                    # ini URL nya
+                    if nxt.startswith("http"):
+                        block.append(nxt)
+                    i += 1
+                    break
+            channels.append("\n".join(block))
+        else:
+            i += 1
+    return channels
 
 r1 = get_raw(SOURCE_1)
 r2 = get_raw(SOURCE_2)
 
-ch1 = extract_channels(r1)
-ch2 = extract_channels(r2)
+ch1 = extract_channels_full(r1)
+ch2 = extract_channels_full(r2)
 
 print(f"SOURCE 1 ketemu: {len(ch1)} channel")
 print(f"SOURCE 2 ketemu: {len(ch2)} channel")
 
 all_channels = ch1 + ch2
 
-# Ganti semua group-title jadi LIVE EVENT dan susun ulang bersih
 final_channels = []
 for ch in all_channels:
     fixed = re.sub(r'group-title="[^"]*"', f'group-title="{ONE_CATEGORY}"', ch)
-    # Kalau belum ada group-title, tambahin
-    if 'group-title=' not in fixed:
-        fixed = fixed.replace('#EXTINF:', f'#EXTINF: group-title="{ONE_CATEGORY}" ', 1) if 'group-title' not in fixed else fixed
-        # fix double group-title
-        fixed = re.sub(r'group-title="[^"]*".*?group-title', f'group-title="{ONE_CATEGORY}"', fixed)
     final_channels.append(fixed)
 
 final_content = "#EXTM3U\n" + "\n".join(final_channels) + "\n"
