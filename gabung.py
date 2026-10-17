@@ -1,6 +1,6 @@
 import requests, re, os
 
-SOURCE_1 = "https://raw.githubusercontent.com/rohmanabdu/deqiaa/refs/heads/main/playlist_final.m3uu"
+SOURCE_1 = "https://raw.githubusercontent.com/rohmanabdu/deqiaa/refs/heads/main/playlist_final.m3u"
 SOURCE_2 = "https://raw.githubusercontent.com/rohmanabdu/lian/refs/heads/main/playlist/rama2.m3u"
 OUTPUT_FILE = "derama/hasil.m3u"
 ONE_CATEGORY = "LIVE EVENT"
