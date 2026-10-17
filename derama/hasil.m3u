@@ -1,46 +1,46 @@
 #EXTM3U
-#EXTINF:-1 group-logo="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png" tvg-logo="https://thumbor.prod.vidiocdn.com/OGh2hhSN8JUCcbAk013AfKeaJRo=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383315/0f2ae1.jpg" group-title="LIVE EVENT",Fenerbahce vs Alanyaspor - Trendyol Super Lig (22:55 WIB * 17-10-2026) - BG
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vidkon.biz.id/post.php?id=17875&type=drm&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3ODc1IiwiZXhwIjoxNzkyMzQ2NDMzfQ.EMLYRndFc1ZjOQzDQEz45I-n-3bi0CBdfX8Sacrhk2Q
-https://vidkon.biz.id/post.mpd?id=17875&type=dash&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3ODc1IiwiZXhwIjoxNzkyMzQ2NDMzfQ.EMLYRndFc1ZjOQzDQEz45I-n-3bi0CBdfX8Sacrhk2Q
-#EXTINF:-1 group-logo="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png" tvg-logo="https://thumbor.prod.vidiocdn.com/R9eRoOCVdbXIVYjwFZSAM6ONzsA=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5379682/b679ef.jpg" group-title="LIVE EVENT",Newcastle vs Aston Villa - Premier League (23:10 WIB * 17-10-2026) - BG
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vidkon.biz.id/post.php?id=22022&type=drm&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjIyMDIyIiwiZXhwIjoxNzkyMzQ2NDMzfQ.-hYMFmvkh1G8U-gabHf5C8nQZrnJ1WP2-uJ7hS1cOVg
-https://vidkon.biz.id/post.mpd?id=22022&type=dash&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjIyMDIyIiwiZXhwIjoxNzkyMzQ2NDMzfQ.-hYMFmvkh1G8U-gabHf5C8nQZrnJ1WP2-uJ7hS1cOVg
-#EXTINF:-1 group-logo="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png" tvg-logo="https://thumbor.prod.vidiocdn.com/WDHcQGSHYSXs6nf7yV7_x0g_gyc=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5380741/a99aae.jpg" group-title="LIVE EVENT",Real Betis vs Barcelona - LaLiga (23:30 WIB * 17-10-2026) - BG
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vidkon.biz.id/post.php?id=6299&type=drm&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjYyOTkiLCJleHAiOjE3OTIzNDY0MzN9.P2C1cIXrg2veIjFg9r_4tG_Zi46g32VkRUj9q-PzvGY
-https://vidkon.biz.id/post.mpd?id=6299&type=dash&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjYyOTkiLCJleHAiOjE3OTIzNDY0MzN9.P2C1cIXrg2veIjFg9r_4tG_Zi46g32VkRUj9q-PzvGY
 #EXTINF:-1 group-logo="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png" tvg-logo="https://thumbor.prod.vidiocdn.com/zFgRG4L_698kBCDuB-4mobOqc-U=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383333/09de55.jpg" group-title="LIVE EVENT",Telstar vs Feyenoord - Eredivisie (00:55 WIB * 18-10-2026) - BG
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://vidkon.biz.id/post.php?id=6685&type=drm&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjY2ODUiLCJleHAiOjE3OTIzNDY0MzN9.k_y-pr5WeZn3uK-ZasU0OgGUnlpDkV_-xZlcb5Hwyxo
-https://vidkon.biz.id/post.mpd?id=6685&type=dash&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjY2ODUiLCJleHAiOjE3OTIzNDY0MzN9.k_y-pr5WeZn3uK-ZasU0OgGUnlpDkV_-xZlcb5Hwyxo
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/eWWTysTGtibstQbLXVeJMKvMx-Q=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383974/39f9af.png" group-title="LIVE EVENT",Vero Volley Milano vs Igor Gorgonzola Novara - Italian Women's Volleyball Serie A1 (01:30 WIB * 18-10-2026) - BG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/NT8dYCuJ11aXWN403l6M4bNzW0A=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5381775/d461ab.jpg" group-title="LIVE EVENT",Roma vs Genoa - Serie A (01:30 WIB * 18-10-2026) - BG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/jmaE0ANIX38UdtX9xE3QeU6PCHA=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383972/5e55bb.png" group-title="LIVE EVENT",Honda Cuneo Granda Volley vs Reale Mutua Fenera Chieri '76 - Italian Women's Volleyball Serie A1 (01:30 WIB * 18-10-2026) - BG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/GFg7QikhzrPF1TQoDAWVTypDq7Q=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5379859/e368e1.jpg" group-title="LIVE EVENT",ESTAC Troyes vs RC Lens - Ligue 1 (01:40 WIB * 18-10-2026) - BG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/i1jLQwJM7D6zbzlcKqxgPY3WsR8=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383801/8f798c.jpg" group-title="LIVE EVENT",LOSC Lille vs Stade Brestois 29 - Ligue 1 (01:40 WIB * 18-10-2026) - BG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/G8ArBjWXC8FAdLgYJjogpq9LjUQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5381779/b67499.jpg" group-title="LIVE EVENT",Valencia vs Athletic Club - LaLiga (01:55 WIB * 18-10-2026) - BG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
+#KODIPROP:inputstream.adaptive.license_key=https://vidkon.biz.id/post.php?id=6685&type=drm&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjY2ODUiLCJleHAiOjE3OTIzNTAwMjl9.KolWEmbAsVCAVA_ReXhOiWwZ0CVO31tJovlBUQAhSo8
+https://vidkon.biz.id/post.mpd?id=6685&type=dash&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjY2ODUiLCJleHAiOjE3OTIzNTAwMjl9.KolWEmbAsVCAVA_ReXhOiWwZ0CVO31tJovlBUQAhSo8
+#EXTINF:-1 group-logo="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png" tvg-logo="https://thumbor.prod.vidiocdn.com/jmaE0ANIX38UdtX9xE3QeU6PCHA=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383972/5e55bb.png" group-title="LIVE EVENT",Honda Cuneo Granda Volley vs Reale Mutua Fenera Chieri '76 - Italian Women's Volleyball Serie A1 (01:30 WIB * 18-10-2026) - BG
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidkon.biz.id/post.php?id=22472&type=drm&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjIyNDcyIiwiZXhwIjoxNzkyMzUwMDI5fQ.vfkLI9qIf0irZnLUhT3b9MqTQ2ph-Y2Hzkcfylxjv0k
+https://vidkon.biz.id/post.mpd?id=22472&type=dash&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjIyNDcyIiwiZXhwIjoxNzkyMzUwMDI5fQ.vfkLI9qIf0irZnLUhT3b9MqTQ2ph-Y2Hzkcfylxjv0k
+#EXTINF:-1 group-logo="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png" tvg-logo="https://thumbor.prod.vidiocdn.com/NT8dYCuJ11aXWN403l6M4bNzW0A=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5381775/d461ab.jpg" group-title="LIVE EVENT",Roma vs Genoa - Serie A (01:30 WIB * 18-10-2026) - BG
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidkon.biz.id/post.php?id=6786&type=drm&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjY3ODYiLCJleHAiOjE3OTIzNTAwMjl9.45IcwdlrErE0oFiVxnk0Z3d3UN0CfnwTqClRcKm-uuA
+https://vidkon.biz.id/post.mpd?id=6786&type=dash&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjY3ODYiLCJleHAiOjE3OTIzNTAwMjl9.45IcwdlrErE0oFiVxnk0Z3d3UN0CfnwTqClRcKm-uuA
+#EXTINF:-1 group-logo="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png" tvg-logo="https://thumbor.prod.vidiocdn.com/eWWTysTGtibstQbLXVeJMKvMx-Q=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383974/39f9af.png" group-title="LIVE EVENT",Vero Volley Milano vs Igor Gorgonzola Novara - Italian Women's Volleyball Serie A1 (01:30 WIB * 18-10-2026) - BG
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidkon.biz.id/post.php?id=22473&type=drm&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjIyNDczIiwiZXhwIjoxNzkyMzUwMDI5fQ.o7ShIkFDwY_P3x1cKP15XySf_WcvyeDitLGe1g1d_fI
+https://vidkon.biz.id/post.mpd?id=22473&type=dash&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjIyNDczIiwiZXhwIjoxNzkyMzUwMDI5fQ.o7ShIkFDwY_P3x1cKP15XySf_WcvyeDitLGe1g1d_fI
+#EXTINF:-1 group-logo="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png" tvg-logo="https://thumbor.prod.vidiocdn.com/i1jLQwJM7D6zbzlcKqxgPY3WsR8=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383801/8f798c.jpg" group-title="LIVE EVENT",LOSC Lille vs Stade Brestois 29 - Ligue 1 (01:40 WIB * 18-10-2026) - BG
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidkon.biz.id/post.php?id=9182&type=drm&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjkxODIiLCJleHAiOjE3OTIzNTAwMjl9.EZWJ52WRdqKLqcOGac78pidPx0cf2hGNPz8byLxOK74
+https://vidkon.biz.id/post.mpd?id=9182&type=dash&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjkxODIiLCJleHAiOjE3OTIzNTAwMjl9.EZWJ52WRdqKLqcOGac78pidPx0cf2hGNPz8byLxOK74
+#EXTINF:-1 group-logo="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png" tvg-logo="https://thumbor.prod.vidiocdn.com/GFg7QikhzrPF1TQoDAWVTypDq7Q=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5379859/e368e1.jpg" group-title="LIVE EVENT",ESTAC Troyes vs RC Lens - Ligue 1 (01:40 WIB * 18-10-2026) - BG
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidkon.biz.id/post.php?id=9183&type=drm&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjkxODMiLCJleHAiOjE3OTIzNTAwMjl9.rjRfvqHlkL57LajPUDMOHSS7Simy2ManV1JvZ6LXTgI
+https://vidkon.biz.id/post.mpd?id=9183&type=dash&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjkxODMiLCJleHAiOjE3OTIzNTAwMjl9.rjRfvqHlkL57LajPUDMOHSS7Simy2ManV1JvZ6LXTgI
+#EXTINF:-1 group-logo="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png" tvg-logo="https://thumbor.prod.vidiocdn.com/G8ArBjWXC8FAdLgYJjogpq9LjUQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5381779/b67499.jpg" group-title="LIVE EVENT",Valencia vs Athletic Club - LaLiga (01:55 WIB * 18-10-2026) - BG
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidkon.biz.id/post.php?id=6299&type=drm&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjYyOTkiLCJleHAiOjE3OTIzNTAwMjl9.SB_GH7mAHgVHjz_aagYZztyjEpCxREW1SqmQismLM-o
+https://vidkon.biz.id/post.mpd?id=6299&type=dash&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjYyOTkiLCJleHAiOjE3OTIzNTAwMjl9.SB_GH7mAHgVHjz_aagYZztyjEpCxREW1SqmQismLM-o
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/Gl7E7ev6M8mj-OJ9KYsh4VoDWiQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5381762/35116d.png" group-title="LIVE EVENT",Prelims | UFC Fight Night: Buckley vs Malott (04:00 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
@@ -56,10 +56,10 @@ https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/zo0edwfhnxuagxUMy2ghPkZsH4k=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5381766/8f4248.png" group-title="LIVE EVENT",Kyle Nelson vs Cristian Perez Gonzalez - Lightweight Bout | UFC Fight Night (09:15 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/n1I4GebvGngiso4aFwLhtpEKz4Q=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383384/44c6e2.png" group-title="LIVE EVENT",Round 4 - Buick LPGA Shanghai 2026 (10:00 WIB * 18-10-2026) - BG
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/wf3-RYpiqPAR6aeUIZUNkoZCrhI=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5381767/3c79bc.png" group-title="LIVE EVENT",Erin Blanchfield vs Jasmine Jasudavicius - Women's Flyweight Bout | UFC Fight Night (10:00 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/wf3-RYpiqPAR6aeUIZUNkoZCrhI=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5381767/3c79bc.png" group-title="LIVE EVENT",Erin Blanchfield vs Jasmine Jasudavicius - Women's Flyweight Bout | UFC Fight Night (10:00 WIB * 18-10-2026) - BG
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/n1I4GebvGngiso4aFwLhtpEKz4Q=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383384/44c6e2.png" group-title="LIVE EVENT",Round 4 - Buick LPGA Shanghai 2026 (10:00 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/o_3lHezh8soU8Y7fvIpRKQhjnrU=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5381768/e3f4e7.png" group-title="LIVE EVENT",Joaquin Buckley vs Mike Malott - Welterweight Bout | UFC Fight Night (10:45 WIB * 18-10-2026) - BG
@@ -92,6 +92,9 @@ https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/lhcGSD5ER8vVc6meTFCiA2wN5f4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383980/e54cbf.jpg" group-title="LIVE EVENT",Putri: UIBU vs UNESA - Final - Liga Voli Mahasiswa (17:00 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/cd2b2t__Rvd7dc8NdH0zwT6UgxE=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18249/victor-denmark-open-2026-finals-d37dac.jpg" group-title="LIVE EVENT",Feng Yan Zhe/Huang Dong Ping (CHN) vs Jiang Zhen Bang/Wei Ya Xin (CHN) - Mixed Doubles Final | VICTOR Denmark Open 2026 (17:00 WIB * 18-10-2026) - BG
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/2-2k6hfcMt75k9uDmpb_UIPhBZU=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383378/6fd406.jpg" group-title="LIVE EVENT",Udinese vs Lecce - Serie A (17:15 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
@@ -107,13 +110,13 @@ https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/CbQrVIx62QsBrBabsKtB6bZomak=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5381780/fc8b78.jpg" group-title="LIVE EVENT",Osasuna vs Racing Santander - LaLiga (18:55 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/F2QlG52dN5JqnVl4BLanLAbUNcQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383388/6c7c76.jpg" group-title="LIVE EVENT",De Red FC vs PS. Barito Putera - Pegadaian Championship (19:00 WIB * 18-10-2026) - BG
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/dmUoEEwLQNQ-exEgQLFjywjcsjI=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383981/72f572.jpg" group-title="LIVE EVENT",Putra: STKIP vs UNESA - Final - Liga Voli Mahasiswa (19:00 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/uVe9mGPdIN2NSK4TtD9PVRdYvk4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383387/60e7fb.jpg" group-title="LIVE EVENT",Zeren Spor vs Fenerbahce Medicana - Turkish Women's Volleyball League (19:00 WIB * 18-10-2026) - BG
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/F2QlG52dN5JqnVl4BLanLAbUNcQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383388/6c7c76.jpg" group-title="LIVE EVENT",De Red FC vs PS. Barito Putera - Pegadaian Championship (19:00 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/11xMsbzhcZaThRouWRzQ75PuqjY=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383381/520cdb.jpg" group-title="LIVE EVENT",SC Cambuur vs AZ Alkmaar - Eredivisie (19:25 WIB * 18-10-2026) - BG
@@ -125,13 +128,13 @@ https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/WfhtrvxiFtMuYrdYyUbM1eGCHoU=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5380742/424d8b.jpg" group-title="LIVE EVENT",Angers SCO vs Olympique de Marseille - Ligue 1 (19:55 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/nEtTgnqeeZGAy2aWoDzdIYeaGag=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5379683/af9f33.jpg" group-title="LIVE EVENT",Leeds United vs Man Utd - Premier League (20:00 WIB * 18-10-2026) - BG
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/5gpXUIfxI4MTMdw9-Yb_S-viPyA=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5379848/da88d1.jpg" group-title="LIVE EVENT",Bournemouth vs Sunderland - Premier League (20:00 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/JG51UEGNUhfxWBD08z2qUv9guEs=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5379850/b011eb.jpg" group-title="LIVE EVENT",Brighton vs Crystal Palace - Premier League (20:00 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/5gpXUIfxI4MTMdw9-Yb_S-viPyA=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5379848/da88d1.jpg" group-title="LIVE EVENT",Bournemouth vs Sunderland - Premier League (20:00 WIB * 18-10-2026) - BG
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/nEtTgnqeeZGAy2aWoDzdIYeaGag=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5379683/af9f33.jpg" group-title="LIVE EVENT",Leeds United vs Man Utd - Premier League (20:00 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/gHNpdtCwGvQfaz07pId9fwenvsw=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383595/88b482.jpg" group-title="LIVE EVENT",2026 NFL London Games: Houston Texans vs Jacksonville Jaguars - NFL (20:30 WIB * 18-10-2026) - BG
@@ -146,10 +149,10 @@ https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/6wNPpOeWf0ZtakHTCkrvALW0XME=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383389/ad194a.jpg" group-title="LIVE EVENT",Eczacibasi Peron Istanbul vs Vakifbank - Turkish Women's Volleyball League (22:00 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/MQRMg2Gz-hkuk6GfyMkjjQ99KDk=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383596/cf72d6.jpg" group-title="LIVE EVENT",Havre AC vs AJ Auxerre - Ligue 1 (22:05 WIB * 18-10-2026) - BG
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/tZwW52pCuxGzCHqjAyTu9K7058Q=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383597/2c4645.jpg" group-title="LIVE EVENT",Paris FC vs Stade Rennais FC - Ligue 1 (22:05 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
-#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/tZwW52pCuxGzCHqjAyTu9K7058Q=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383597/2c4645.jpg" group-title="LIVE EVENT",Paris FC vs Stade Rennais FC - Ligue 1 (22:05 WIB * 18-10-2026) - BG
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/MQRMg2Gz-hkuk6GfyMkjjQ99KDk=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383596/cf72d6.jpg" group-title="LIVE EVENT",Havre AC vs AJ Auxerre - Ligue 1 (22:05 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/J4eTmFq8Fal7xwOq83Xie78c3wQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5379860/58f958.jpg" group-title="LIVE EVENT",FC Lorient vs AS Monaco - Ligue 1 (22:10 WIB * 18-10-2026) - BG
@@ -159,6 +162,9 @@ https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/BUgGDLt-KWTgjomfypqhaf0ed64=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383380/e66052.jpg" group-title="LIVE EVENT",Milan vs Atalanta - Serie A (22:45 WIB * 18-10-2026) - BG
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/HrOmhrXPRqZGtykEBol_rcj634w=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5383990/b23952.jpg" group-title="LIVE EVENT",Aaron Chia/Soh Wooi Yik (MAS) vs Fajar Alfian/Muhammad Shohibul Fikri (INA) - Men's Doubles Final | VICTOR Denmark Open 2026 (23:00 WIB * 18-10-2026) - BG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4
 #EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/HjihTG0UH6HIckkB-Ih6tqwLya8=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5380731/92950b.jpg" group-title="LIVE EVENT",Malaga vs Real Sociedad - LaLiga (23:25 WIB * 18-10-2026) - BG
