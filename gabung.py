@@ -14,55 +14,62 @@ def get_raw(url):
         print(f"GAGAL ambil {url}: {e}")
         return ""
 
-def extract_channels_full(text):
-    channels = []
+def parse_blocks(text):
+    blocks = []
     lines = text.splitlines()
-    i = 0
-    while i < len(lines):
-        line = lines[i].strip()
-        if line.startswith("#EXTINF"):
-            block = [line]
-            i += 1
-            # ambil semua baris # yang ada di bawah EXTINF (VLCOPT, KODIPROP, dll) sampai ketemu URL
-            while i < len(lines):
-                nxt = lines[i].strip()
-                if not nxt:
-                    i += 1
-                    continue
-                if nxt.startswith("#") and not nxt.startswith("#EXTINF"):
-                    block.append(nxt)
-                    i += 1
-                else:
-                    # ini URL nya
-                    if nxt.startswith("http"):
-                        block.append(nxt)
-                    i += 1
-                    break
-            channels.append("\n".join(block))
-        else:
-            i += 1
-    return channels
+    cur_extinf = None
+    cur_props = []
+    for line in lines:
+        s = line.strip()
+        if not s: continue
+        if s.startswith("#EXTINF"):
+            # simpan block sebelumnya jika ada
+            if cur_extinf:
+                blocks.append((cur_extinf, cur_props, "")) # gak ada url, skip nanti
+            cur_extinf = s
+            cur_props = []
+        elif s.startswith("#") and cur_extinf:
+            cur_props.append(s)
+        elif s.startswith("http") and cur_extinf:
+            blocks.append((cur_extinf, cur_props, s))
+            cur_extinf = None
+            cur_props = []
+    return blocks
 
 r1 = get_raw(SOURCE_1)
 r2 = get_raw(SOURCE_2)
 
-ch1 = extract_channels_full(r1)
-ch2 = extract_channels_full(r2)
+b1 = parse_blocks(r1)
+b2 = parse_blocks(r2)
 
-print(f"SOURCE 1 ketemu: {len(ch1)} channel")
-print(f"SOURCE 2 ketemu: {len(ch2)} channel")
+print(f"SOURCE 1 ketemu: {len(b1)} block")
+print(f"SOURCE 2 ketemu: {len(b2)} block")
 
-all_channels = ch1 + ch2
-
-final_channels = []
-for ch in all_channels:
-    fixed = re.sub(r'group-title="[^"]*"', f'group-title="{ONE_CATEGORY}"', ch)
-    final_channels.append(fixed)
-
-final_content = "#EXTM3U\n" + "\n".join(final_channels) + "\n"
+all_blocks = b1 + b2
+final_lines = ["#EXTM3U"]
+for extinf, props, url in all_blocks:
+    if not url: continue
+    # ganti group-title
+    extinf = re.sub(r'group-title="[^"]*"', f'group-title="{ONE_CATEGORY}"', extinf)
+    if 'group-title=' not in extinf:
+        extinf = extinf.replace(',', f' group-title="{ONE_CATEGORY}",', 1)
+    
+    final_lines.append(extinf)
+    # LOGIKA UNTUK APK KAMU:
+    if ".mpd" in url.lower():
+        # untuk MPD wajib ada ini biar ExoPlayer di APK mau play
+        has_manifest = any("manifest_type" in p for p in props)
+        if not has_manifest:
+            final_lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
+        # pertahankan props yang lain kalau ada license
+        for p in props:
+            if "KODIPROP" in p or "EXTVLCOPT" in p:
+                final_lines.append(p)
+    # kalau m3u8, jangan pakai KODIPROP biar ringan
+    final_lines.append(url)
 
 os.makedirs("derama", exist_ok=True)
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    f.write(final_content)
+    f.write("\n".join(final_lines) + "\n")
 
-print(f"Selesai TOTAL {len(final_channels)} channel -> {OUTPUT_FILE}")
+print(f"Selesai TOTAL {len(final_lines)//2} channel -> {OUTPUT_FILE}")
