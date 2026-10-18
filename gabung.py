@@ -20,5 +20,10 @@ for line in lines:
     elif s.startswith("http") or s.startswith("#KODIPROP") or s.startswith("#EXTVLCOPT"):
         out.append(s)
 
+# ini yang bikin otomatis ke folder derama
+os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
+
 with open(OUTPUT, "w", encoding="utf-8") as f:
     f.write("\n".join(out) + "\n")
+
+print(f"Done -> {OUTPUT}")
