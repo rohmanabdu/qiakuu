@@ -23,18 +23,21 @@ except Exception as e:
 
 print(f"Panjang source: {len(raw)}")
 
-# DETEKSI ERROR KAYAK DI SCREENSHOT KAMU
-if "Gagal mengambil URL" in raw or "cURL Error" in raw or "Connection reset" in raw or len(raw) < 1000:
-    print("[X] Source ke-block GitHub! Jangan timpa file lama. STOP.")
-    print(raw)
+# kalau ke-block kayak kemarin, jangan timpa file lama
+if "Gagal mengambil URL" in raw or "cURL Error" in raw or len(raw) < 1000:
+    print("[X] Source ke-block, STOP biar gak ngerusak file lama")
     sys.exit(0)
 
 final = raw.replace("https://bandeltv.xyz/film/waitng_event_gemini.mp4", VIDEO_CUSTOM).replace(VIDEO_LAMA, VIDEO_CUSTOM)
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-    f.write(final)
+
+# INI KUNCINYA, BIKIN 2 FILE SEKALIGUS
 with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
     f.write(final)
 
-print(f"[✓] {OUTPUT_M3U} BERHASIL, aman di-push")
+with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
+    f.write(final)
+
+print(f"[✓] {OUTPUT_M3U} ada")
+print(f"[✓] {OUTPUT_JSON} ada")
