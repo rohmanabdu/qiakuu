@@ -1,7 +1,7 @@
 import requests, re, os
 
 SOURCE = "https://raw.githubusercontent.com/rohmanabdu/deqiaa/refs/heads/main/playlist_final.m3u"
-OUTPUT_FILE = "derama/hasil.m3u"
+OUTPUT_FILE = "derama/hasila.m3u"
 ONE_CATEGORY = "LIVE EVENT"
 
 def get_raw(url):
