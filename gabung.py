@@ -1,40 +1,40 @@
-import requests
-import os
+import requests, os, sys
 
 SOURCE = "https://bandeltv.xyz/2026/vid/New.php"
-VIDEO_CUSTOM = "https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4"
-VIDEO_LAMA = "waitng_event_gemini.mp4"
-
-# folder output
 OUTPUT_DIR = "derama"
 OUTPUT_M3U = f"{OUTPUT_DIR}/hasil.m3u"
 OUTPUT_JSON = f"{OUTPUT_DIR}/hasil.json"
 
-r = requests.get(SOURCE, timeout=15, headers={
-    "User-Agent": "Mozilla/5.0",
-    "Referer": "https://bandeltv.xyz/"
-})
-raw = r.text
+VIDEO_LAMA = "waitng_event_gemini.mp4"
+VIDEO_CUSTOM = "https://raw.githubusercontent.com/rohmanabdu/cloudd/main/upcoming.mp4"
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Referer": "https://bandeltv.xyz/",
+    "Origin": "https://bandeltv.xyz"
+}
+
+try:
+    r = requests.get(SOURCE, timeout=30, headers=headers)
+    raw = r.text
+except Exception as e:
+    print(f"[X] Request gagal: {e}")
+    sys.exit(0)
 
 print(f"Panjang source: {len(raw)}")
-print(f"Apakah upcoming? {VIDEO_LAMA in raw}")
 
-# JANGAN PARSE JSON, LANGSUNG GANTI STRING SAJA
-final = raw.replace(
-    "https://bandeltv.xyz/film/waitng_event_gemini.mp4", VIDEO_CUSTOM
-).replace(
-    "https://bandeltv.xyz/film/waitng_event_gemini.mp4".replace("https","http"), VIDEO_CUSTOM
-).replace(VIDEO_LAMA, VIDEO_CUSTOM)
+# DETEKSI ERROR KAYAK DI SCREENSHOT KAMU
+if "Gagal mengambil URL" in raw or "cURL Error" in raw or "Connection reset" in raw or len(raw) < 1000:
+    print("[X] Source ke-block GitHub! Jangan timpa file lama. STOP.")
+    print(raw)
+    sys.exit(0)
 
-# bikin folder derama otomatis kalau belum ada
+final = raw.replace("https://bandeltv.xyz/film/waitng_event_gemini.mp4", VIDEO_CUSTOM).replace(VIDEO_LAMA, VIDEO_CUSTOM)
+
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-# Simpan ke folder derama
 with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
     f.write(final)
-
 with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
     f.write(final)
 
-print(f"[✓] {OUTPUT_JSON} disimpan")
-print(f"[✓] {OUTPUT_M3U} disimpan TANPA UBAH STRUKTUR")
+print(f"[✓] {OUTPUT_M3U} BERHASIL, aman di-push")
