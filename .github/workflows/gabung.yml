@@ -26,11 +26,11 @@ jobs:
 
       - name: Run script
         run: python gabung.py
+
       - name: Commit and Push
         run: |
           git config --global user.name "lian-bot"
-          git config --global user.email "lian-bot@bot.com"
-          git add derama/hasil.m3u derama/hasil.json
-          git add derama/
-          git diff --staged --quiet || git commit -m "auto update hasil.m3u via cron-job.org"
+          git config --global user.email "bot@lian"
+          git add derama/hasil.m3u
+          git diff --quiet && git diff --staged --quiet || git commit -m "auto update hasil.m3u via cron-job.org"
           git push
